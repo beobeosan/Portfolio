@@ -228,7 +228,7 @@ function App() {
         {/* Project 2 */}
         <div className="group relative overflow-hidden rounded-lg">
           <img 
-            src="./images/slid.png" 
+            src="https://beobeosan.github.io/Portfolio/assets/images/slid.png" 
             alt="project2"
             className="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500"
           />
@@ -273,7 +273,7 @@ function App() {
           aria-label="Scroll to top"
         >
           <img 
-            src="images/scroll.png" 
+            src="https://beobeosan.github.io/Portfolio/assets/images/scroll.png" 
             alt="Scroll to top" 
             className="w-10 h-10 object-contain"
           />
