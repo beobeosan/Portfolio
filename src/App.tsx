@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, ExternalLink, User, Briefcase, GraduationCap, C
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import backgroundImage from '/images/background.jpg';
+import backgroundImage from './images/background.jpg';
 
 function ContactForm() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
