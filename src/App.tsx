@@ -3,6 +3,7 @@ import { Github, Linkedin, Mail, ExternalLink, User, Briefcase, GraduationCap, C
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import backgroundImage from '/images/background.jpg';
 
 function ContactForm() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -131,7 +132,7 @@ function App() {
       <ToastContainer />
       {/* Hero Section */}
       <header className="min-h-screen flex items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('./images/background.jpg')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-20" style={{ backgroundImage: `url(${backgroundImage})` }}></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
